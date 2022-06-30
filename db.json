@@ -7,5 +7,27 @@
       "age": 38,
       "id": 1
     }
+  ],
+  "posts": [
+    {
+      "date": "12/05/2018",
+      "content": "Meu primeiro post estou muito feliz de fazer parte dessa comunidade",
+      "owner": "Pedrinho123"
+    },
+    {
+      "date": "18/05/2019",
+      "content": "Depois de muito tempo voltei, mas parece que só tem eu aqui. Onde estão todos?",
+      "owner": "Pedrinho123"
+    },
+    {
+      "date": "16/07/2020",
+      "content": "Só precisava da companhia de alguém...",
+      "owner": "Pedrinho123"
+    },
+    {
+      "date": "18/10/2022",
+      "content": "Esse é meu ultimo post, adeus mundo cruel",
+      "owner": "Pedrinho123"
+    }
   ]
 }

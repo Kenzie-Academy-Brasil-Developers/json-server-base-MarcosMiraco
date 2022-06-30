@@ -9,7 +9,9 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 600,
+  users: 600, // tem que ser o dono para ler/escrever
+  posts: 664, // todos podem ler
+  myposts: 660 // tem que estar logado para ler/escrever
 });
 
 app.use(cors());
